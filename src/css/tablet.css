@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+    .hero {
+        padding-bottom: 64px;
+    }
+
+    .hero {
+        gap: 2rem;
+    }
+
+}
