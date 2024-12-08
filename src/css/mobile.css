@@ -4,8 +4,10 @@
 :root {
     --cyan-600: hsl(192, 37%, 48%);
     --cyan-300: hsl(192, 90%, 77%);
+    --cyan-hover: hsl(192, 54%, 64%);
     --purple-600: hsl(268, 34%, 53%);
     --purple-300: hsl(268, 100%, 86%);
+    --purple-hover: hsl(268, 55%, 71%);
     --slate-900: hsl(240, 21%, 20%);
     --slate-600: hsl(240, 10%, 57%);
     --slate-300: hsl(240, 18%, 85%);
@@ -65,10 +67,16 @@ body,
     color: var(--white);
     padding: 1rem 2.5rem;
     width: fit-content;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
 .btn_primary {
     background-color: var(--cyan-600);
+}
+
+.btn_primary:hover {
+    background-color: var(--cyan-hover);
 }
 
 .btn_primary span {
@@ -77,6 +85,10 @@ body,
 
 .btn_secondary {
     background-color: var(--purple-600);
+}
+
+.btn_secondary:hover {
+    background-color: var(--purple-hover);
 }
 
 /* Header ****************** */
