@@ -1,6 +1,7 @@
 @media (min-width: 1440px) {
     header {
-        padding-top: 80px;
+        padding-top: 5rem;
+        ;
     }
 
     .hero {
@@ -29,8 +30,8 @@
 
     /*  Footer ****************** */
     footer {
-        padding-top: 112px;
-        padding-bottom: 112px;
+        padding-top: 7rem;
+        padding-bottom: 7rem;
         background: linear-gradient(hsla(192, 37%, 48%, 90%),
                 hsla(192, 37%, 48%, 85%)),
             url('/assets/desktop/image-footer.jpg');
@@ -58,7 +59,7 @@
 
 @media (min-width: 2000px) {
     .hero {
-        max-width: 1500px;
+        max-width: 93.75rem;
         margin-inline: auto;
     }
 

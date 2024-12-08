@@ -9,18 +9,17 @@
 
 
     .hero .content {
-        padding-top: 72px;
+        padding-top: 4.5rem;
     }
 
     .hero .buttons {
         flex-direction: row;
         justify-content: center;
-        margin-bottom: 64px;
     }
 
     /* Meetings ****************** */
     .meetings {
-        padding-top: 56px;
+        padding-top: 3.5rem;
     }
 
     .meeting_images {
