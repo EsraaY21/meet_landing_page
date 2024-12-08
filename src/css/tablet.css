@@ -3,18 +3,24 @@
         font-size: 48px;
     }
 
-    .buttons {
-        flex-direction: row;
-        justify-content: center;
-        margin-bottom: 64px;
+    .hero .people_left {
+        margin-left: -3vw;
+
     }
 
-    .hero .people {
-        height: 40vw;
+    .hero .people_right {
+        margin-right: -3vw;
     }
+
 
     .hero .content {
         padding-top: 72px;
+    }
+
+    .hero .buttons {
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 64px;
     }
 
 

@@ -1,4 +1,3 @@
-import Hero from "./Hero";
 import logo from "/assets/logo.svg";
 
 export default function Header() {
@@ -7,7 +6,6 @@ export default function Header() {
       <header>
         <img src={logo} className="logo" alt="Logo" />
       </header>
-      <Hero />
     </>
   );
 }

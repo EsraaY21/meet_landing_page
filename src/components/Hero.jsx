@@ -5,14 +5,12 @@ export default function Hero() {
   return (
     <>
       <section className="hero">
-        <div className="people">
-          <div className="people_left">
-            <img src={heroLeft} alt="images left" />
-          </div>
+        <div className="people_left">
+          <img src={heroLeft} alt="images left" />
+        </div>
 
-          <div className="people_right">
-            <img src={heroRight} alt="images right" />
-          </div>
+        <div className="people_right">
+          <img src={heroRight} alt="images right" />
         </div>
 
         <div className="content">
