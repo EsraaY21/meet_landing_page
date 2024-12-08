@@ -6,10 +6,20 @@
         "content content";
 ```
 
+---
+
+```
+    grid-area: right;
+```
+
+---
+
 ```
     place-self: end;
 
 ```
+
+---
 
 ```
 transform: translateY(1.75rem);
