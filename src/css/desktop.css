@@ -27,6 +27,33 @@
         margin-inline: auto;
     }
 
+    /*  Footer ****************** */
+    footer {
+        padding-top: 112px;
+        padding-bottom: 112px;
+        background: linear-gradient(hsla(192, 37%, 48%, 90%),
+                hsla(192, 37%, 48%, 85%)),
+            url('/public/assets/desktop/image-footer.jpg');
+        text-align: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    footer .container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    footer h2 {
+        max-width: 14ch;
+    }
+
+    footer p {
+        margin-inline: 0px;
+        max-width: 30ch;
+    }
 }
 
 @media (min-width: 2000px) {

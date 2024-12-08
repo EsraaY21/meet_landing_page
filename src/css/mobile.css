@@ -11,6 +11,10 @@
     --white: hsl(0, 0%, 98%);
 }
 
+body {
+    background-color: var(--white);
+
+}
 
 body,
 * {
@@ -153,7 +157,6 @@ header .logo {
 /* Meetings ****************** */
 .meetings {
     padding-top: 32px;
-    padding-bottom: 64px;
 }
 
 .vertical_line {
@@ -172,6 +175,7 @@ header .logo {
     display: grid;
     place-content: center;
     margin-inline: auto;
+    background-color: var(--white);
 }
 
 .meeting_images {
@@ -209,5 +213,39 @@ header .logo {
     margin-inline: auto;
 }
 
+.meetings .divider {
+    transform: translateY(28px)
+}
 
-/*  ****************** */
+
+/*  Footer ****************** */
+footer {
+    padding: 64px 32px;
+    text-align: center;
+    background: linear-gradient(hsla(192, 37%, 48%, 90%),
+            hsla(192, 37%, 48%, 85%)),
+        url('/public/assets/mobile/image-footer.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: var(--white);
+}
+
+footer p {
+    max-width: 48ch;
+    margin-inline: auto;
+}
+
+footer .btn {
+    margin-inline: auto;
+}
+
+footer span {
+    color: var(--purple-300);
+}

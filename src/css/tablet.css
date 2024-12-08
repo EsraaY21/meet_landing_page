@@ -21,11 +21,21 @@
     /* Meetings ****************** */
     .meetings {
         padding-top: 56px;
-        padding-bottom: 64px;
     }
 
     .meeting_images {
         grid-template-columns: repeat(4, 1fr);
     }
+
+    /*  Footer ****************** */
+    footer {
+        background: linear-gradient(hsla(192, 37%, 48%, 90%),
+                hsla(192, 37%, 48%, 85%)),
+            url('/public/assets/tablet/image-footer.jpg');
+
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
 
 }
