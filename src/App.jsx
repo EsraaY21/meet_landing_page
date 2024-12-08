@@ -1,5 +1,7 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Meetings from "./components/Meetings";
 
 function App() {
   return (
@@ -7,8 +9,9 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <Meetings />
       </main>
-      <footer></footer>
+      <Footer />
     </>
   );
 }

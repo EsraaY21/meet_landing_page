@@ -1,11 +1,6 @@
 @media (min-width: 768px) {
-    .text-1 {
-        font-size: 48px;
-    }
-
     .hero .people_left {
         margin-left: -3vw;
-
     }
 
     .hero .people_right {
@@ -23,5 +18,14 @@
         margin-bottom: 64px;
     }
 
+    /* Meetings ****************** */
+    .meetings {
+        padding-top: 56px;
+        padding-bottom: 64px;
+    }
+
+    .meeting_images {
+        grid-template-columns: repeat(4, 1fr);
+    }
 
 }

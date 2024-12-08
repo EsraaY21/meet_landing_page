@@ -1,12 +1,4 @@
 @media (min-width: 1440px) {
-    .text-1 {
-        font-size: 64px;
-    }
-
-    .text-4 {
-        font-size: 18px;
-    }
-
     header {
         padding-top: 80px;
     }
@@ -15,13 +7,10 @@
         grid-template-areas:
             "left content right";
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 1rem;
-        align-items: center;
     }
 
     .hero .people_left {
         margin-left: -1.5vw;
-
     }
 
     .hero .people_right {
@@ -32,7 +21,27 @@
         padding-top: 0px;
     }
 
+    .hero .content_container {
+        width: auto;
+        max-width: none;
+        margin-inline: auto;
+    }
 
+}
+
+@media (min-width: 2000px) {
+    .hero {
+        max-width: 1500px;
+        margin-inline: auto;
+    }
+
+    .hero .people_left {
+        margin-left: 0px;
+    }
+
+    .hero .people_right {
+        margin-right: 0px;
+    }
 
 
 }

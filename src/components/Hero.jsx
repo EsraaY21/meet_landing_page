@@ -14,7 +14,7 @@ export default function Hero() {
         </div>
 
         <div className="content">
-          <div className="container">
+          <div className="content_container">
             <h1 className="text-1">Group Chat for Everyone</h1>
             <p className="text-4">
               Meet makes it easy to connect with others face-to-face virtually
