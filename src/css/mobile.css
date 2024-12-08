@@ -224,7 +224,7 @@ footer {
     text-align: center;
     background: linear-gradient(hsla(192, 37%, 48%, 90%),
             hsla(192, 37%, 48%, 85%)),
-        url('/public/assets/mobile/image-footer.jpg');
+        url('/assets/mobile/image-footer.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

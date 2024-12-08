@@ -33,7 +33,7 @@
         padding-bottom: 112px;
         background: linear-gradient(hsla(192, 37%, 48%, 90%),
                 hsla(192, 37%, 48%, 85%)),
-            url('/public/assets/desktop/image-footer.jpg');
+            url('/assets/desktop/image-footer.jpg');
         text-align: left;
         background-repeat: no-repeat;
         background-size: cover;
