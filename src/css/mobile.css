@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
+
 :root {
     --cyan-600: hsl(192, 37%, 48%);
     --cyan-300: hsl(192, 90%, 77%);
@@ -13,7 +14,6 @@
 
 body {
     background-color: var(--white);
-
 }
 
 body,
@@ -23,58 +23,56 @@ body,
 
 .container {
     width: 83%;
-    max-width: 1120px;
+    max-width: 70rem;
     margin-inline: auto;
 }
 
 .text-1 {
-    font-size: clamp(40px, 5vw, 64px);
+    font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 900;
     line-height: 110%;
 }
 
 .text-2 {
-    font-size: clamp(32px, 2.5vw, 40px);
+    font-size: clamp(2rem, 2.5vw, 2.5rem);
     font-weight: 900;
     line-height: 110%;
 }
 
 .text-3 {
-    font-size: clamp(12px, 1vw, 16px);
+    font-size: clamp(0.75rem, 1vw, 1rem);
     font-weight: 900;
     line-height: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
     text-transform: uppercase;
 }
 
 .text-4 {
-    font-size: clamp(16px, 1vw, 18px);
+    font-size: clamp(1rem, 1vw, 1.125rem);
     font-weight: 500;
     line-height: 150%;
 }
 
 .text-5 {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 900;
     line-height: 150%;
 }
 
 .btn {
     text-align: center;
-    border-radius: 29px;
+    border-radius: 1.8125rem;
     color: var(--white);
-    padding: 16px 40px;
+    padding: 1rem 2.5rem;
     width: fit-content;
 }
 
 .btn_primary {
     background-color: var(--cyan-600);
-    padding: 16px 40px;
-
 }
 
 .btn_primary span {
-    color: var(--cyan-300)
+    color: var(--cyan-300);
 }
 
 .btn_secondary {
@@ -83,12 +81,12 @@ body,
 
 /* Header ****************** */
 header {
-    padding-top: 48px;
-    padding-bottom: 64px;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
 }
 
 header .logo {
-    width: 118px;
+    width: 7.375rem;
     margin-inline: auto;
 }
 
@@ -102,13 +100,12 @@ header .logo {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     align-items: center;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 .hero .people_left {
     grid-area: left;
     margin-left: -6vw;
-
 }
 
 .hero .people_right {
@@ -117,21 +114,20 @@ header .logo {
     margin-right: -6vw;
 }
 
-
 .hero .content {
-    padding-top: 48px;
+    padding-top: 3rem;
     grid-area: content;
 }
 
 .hero .content_container {
     width: 83%;
-    max-width: 1120px;
+    max-width: 70rem;
     margin-inline: auto;
 }
 
 .hero h1 {
     color: var(--slate-900);
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     max-width: 10ch;
     margin-inline: auto;
     text-align: center;
@@ -139,39 +135,37 @@ header .logo {
 
 .hero p {
     color: var(--slate-600);
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     max-width: 40ch;
     text-align: center;
     margin-inline: auto;
-
 }
 
 .hero .buttons {
     display: flex;
-    gap: 16px;
+    gap: 1rem;
     flex-direction: column;
     align-items: center;
 }
 
-
 /* Meetings ****************** */
 .meetings {
-    padding-top: 32px;
+    padding-top: 2rem;
 }
 
 .vertical_line {
     background-color: var(--slate-300);
-    width: 1px;
-    height: 80px;
+    width: 0.0625rem;
+    height: 5rem;
     margin-inline: auto;
 }
 
 .number {
     color: var(--slate-600);
-    border: 1px solid var(--slate-300);
-    border-radius: 100%;
-    width: 56px;
-    height: 56px;
+    border: 0.0625rem solid var(--slate-300);
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
     display: grid;
     place-content: center;
     margin-inline: auto;
@@ -179,30 +173,29 @@ header .logo {
 }
 
 .meeting_images {
-    padding-top: 64px;
+    padding-top: 4rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: clamp(16px, 5vw, 32px);
+    gap: clamp(1rem, 5vw, 2rem);
 }
 
 .meeting_images img {
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 .meetings .meeting_content {
     text-align: center;
-    padding: 64px 0px;
-
+    padding: 4rem 0px;
 }
 
 .meetings h3 {
     color: var(--cyan-600);
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 .meetings h2 {
     color: var(--slate-900);
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
     max-width: 19ch;
     margin-inline: auto;
 }
@@ -214,13 +207,12 @@ header .logo {
 }
 
 .meetings .divider {
-    transform: translateY(28px)
+    transform: translateY(1.75rem);
 }
 
-
-/*  Footer ****************** */
+/* Footer ****************** */
 footer {
-    padding: 64px 32px;
+    padding: 4rem 2rem;
     text-align: center;
     background: linear-gradient(hsla(192, 37%, 48%, 90%),
             hsla(192, 37%, 48%, 85%)),
@@ -233,7 +225,7 @@ footer {
 footer .container {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 1.5rem;
     color: var(--white);
 }
 
