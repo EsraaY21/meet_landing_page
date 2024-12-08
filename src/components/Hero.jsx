@@ -5,12 +5,14 @@ export default function Hero() {
   return (
     <>
       <section className="hero">
-        <div className="people people_left">
-          <img src={heroLeft} alt="images left" />
-        </div>
+        <div className="people">
+          <div className="people_left">
+            <img src={heroLeft} alt="images left" />
+          </div>
 
-        <div className="people people_right">
-          <img src={heroRight} alt="images right" />
+          <div className="people_right">
+            <img src={heroRight} alt="images right" />
+          </div>
         </div>
 
         <div className="content">
@@ -22,10 +24,10 @@ export default function Hero() {
             </p>
 
             <div className="buttons">
-              <a href="" className="btn">
-                Download v1.3
+              <a href="" className="btn btn_primary text-5">
+                Download <span>v1.3</span>
               </a>
-              <a href="" className="btn">
+              <a href="" className="btn btn_secondary text-5">
                 What is it?
               </a>
             </div>

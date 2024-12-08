@@ -1,10 +1,21 @@
 @media (min-width: 768px) {
-    .hero {
-        padding-bottom: 64px;
+    .text-1 {
+        font-size: 48px;
     }
 
-    .hero {
-        gap: 2rem;
+    .buttons {
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 64px;
     }
+
+    .hero .people {
+        height: 40vw;
+    }
+
+    .hero .content {
+        padding-top: 72px;
+    }
+
 
 }

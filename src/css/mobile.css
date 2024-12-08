@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
-    --slate-900: #28283D;
-    --slate-600: #87879D;
+    --cyan-600: hsl(192, 37%, 48%);
+    --cyan-300: hsl(192, 90%, 77%);
+    --purple-600: hsl(268, 34%, 53%);
+    --purple-300: hsl(268, 100%, 86%);
+    --slate-900: hsl(240, 21%, 20%);
+    --slate-600: hsl(240, 10%, 57%);
+    --slate-300: hsl(240, 18%, 85%);
+    --white: hsl(0, 0%, 98%);
 }
 
 
-body {
+body,
+* {
     font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -28,8 +35,15 @@ body {
     line-height: 150%;
 }
 
+.text-5 {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 150%;
+}
+
 header {
     padding-top: 48px;
+    padding-bottom: 64px;
 }
 
 header .logo {
@@ -38,44 +52,75 @@ header .logo {
 }
 
 .hero {
-    padding-top: 64px;
-    padding-bottom: 32px;
     overflow: hidden;
-    display: grid;
-    grid-template-areas:
-        "left right"
-        "content content";
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    align-items: center;
+    position: relative;
+}
+
+.hero .people {
+    height: 38vw;
 }
 
 .hero .people_left {
-    margin-left: -1.8rem;
-    grid-area: left;
+    position: absolute;
+    left: -5vw;
+    width: 53vw;
 
 }
 
 .hero .people_right {
-    margin-right: -1.8rem;
-    grid-area: right;
-
+    position: absolute;
+    right: -5vw;
+    width: 53vw;
 }
 
 .hero .content {
-    text-align: center;
-    grid-area: content;
+    padding-top: 48px;
 }
 
 .hero h1 {
     color: var(--slate-900);
-    margin-top: 48px;
     margin-bottom: 24px;
     max-width: 10ch;
     margin-inline: auto;
+    text-align: center;
 }
 
 .hero p {
     color: var(--slate-600);
     margin-bottom: 24px;
+    max-width: 40ch;
+    text-align: center;
+    margin-inline: auto;
+
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.btn {
+    text-align: center;
+    border-radius: 29px;
+    color: var(--white);
+    padding: 16px 40px;
+    width: fit-content;
+}
+
+.btn_primary {
+    background-color: var(--cyan-600);
+    padding: 16px 40px;
+
+}
+
+.btn_primary span {
+    color: var(--cyan-300)
+}
+
+.btn_secondary {
+    background-color: var(--purple-600);
+
 }
